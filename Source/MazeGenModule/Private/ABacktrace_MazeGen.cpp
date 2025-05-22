@@ -102,12 +102,12 @@ void AABacktrace_MazeGen::GenerateMazeMeshes()
 	grid[startX][startY].westWall = false; // Entrance opening at (0,0) on the left side
 
 	// Remove the appropriate wall at the end point
-	if (isRightEdge) {
-		grid[endX][endY].eastWall = false; // Exit opening on the right side
-	}
-	else {
-		grid[endX][endY].northWall = false; // Exit opening on the top side
-	}
+	//if (isRightEdge) {
+	//	grid[endX][endY].eastWall = false; // Exit opening on the right side
+	//}
+	//else {
+	//	grid[endX][endY].northWall = false; // Exit opening on the top side
+	//}
 
 	// Step 3: Visualize it
 	VisualiseMaze();
